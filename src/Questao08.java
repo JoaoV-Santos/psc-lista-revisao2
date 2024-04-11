@@ -6,5 +6,6 @@ public class Questao08 {
         System.out.println("Informe um número:");
         int n = in.nextInt();
         System.out.println((n % 2 == 0) ? "Par" : "Ímpar");
+        in.close();
     }
 }
